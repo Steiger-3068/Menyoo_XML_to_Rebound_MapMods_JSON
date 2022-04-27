@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>Menyoo_XML_to_Rebound_MapMods_JSON.Program</StartupObject>
+    <Version>1.0.0</Version>
+    <Authors>Steiger#3068</Authors>
+    <Company>Steiger#3068</Company>
+    <Product>Menyoo XML to Rebound MapMods JSON</Product>
+    <Description>Converts Menyoo Objects XML Files to  Rebound Map Mod JSON Files</Description>
+    <Copyright>Steiger#3068</Copyright>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
